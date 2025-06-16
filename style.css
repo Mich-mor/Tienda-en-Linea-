@@ -1,0 +1,86 @@
+body{
+  font-family: 'segoe ui', Tahoa, Geneva, Verdana, sans-serif;
+  background-color: wheat;
+  margin: 0;
+  text-align: center;
+  
+}
+header, footer{
+  background-color: blueviolet;
+  color: red;
+  padding: 1em;
+  
+}
+nav ul{
+  list-style: none;
+  padding: 0;
+}
+nav ul li{
+  display: inline;
+  margin: 0 1em;
+}
+nav ul li a{
+  color: chocolate;
+  text-decoration: none;
+}
+busqueda{
+  text-align: center;
+  margin-bottom: 1px;
+}
+#buscador{
+  width: 60%;
+  padding: 0.5em;
+  font-size: 1em;
+  border: 1px solid pink;
+  border-radius: 5px;
+}
+main{
+  padding: 1em;
+}
+.productos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.producto{
+  background-color: yellow;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #3ef788(0, 0, 0.1);
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+  width: 220px;
+  transition: transfore 0.25;
+}
+.producto,hover{
+  transform: scale(1.05);
+}
+.producto img{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.descripcion{
+  font-size: 0.9 em;
+  color: rosybrown;
+}
+.precio{
+  font-weight: bold;
+  color: mediumturquoise;
+  margin: 0.5em 0;
+}
+.rating{
+  color:"blue";
+  margin-bottom: 0.5em;
+}
+button{
+  background-color: green;
+  border: none;
+  padding: 0.5en 1em;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background-color: blue;
+}
